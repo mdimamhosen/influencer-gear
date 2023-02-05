@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-container {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.cart-img > img {
+  height: 36px;
+  width: 36px;
+}
+.search-img > img {
+  width: 24px;
+  height: 24px;
+}
